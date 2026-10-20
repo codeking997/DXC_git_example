@@ -1,1 +1,0 @@
-<template><div><AccountCard v-for='a in store.accounts' :account='a'/></div></template><script setup>import AccountCard from '../components/AccountCard.vue';import {useBankStore} from '../stores/bankStore';const store=useBankStore();</script>

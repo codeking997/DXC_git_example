@@ -1,1 +1,0 @@
-import {defineStore} from 'pinia';export const useBankStore=defineStore('bank',{state:()=>({customer:'John Smith',accounts:[{name:'Checking',balance:12000},{name:'Savings',balance:80000}],transactions:[{text:'Salary',amount:2500},{text:'Mortgage',amount:-1200}]})});
