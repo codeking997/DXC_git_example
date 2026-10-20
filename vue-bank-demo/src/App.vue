@@ -1,0 +1,1 @@
+<template><div><h1>Bank Portal Demo</h1><nav><router-link to='/'>Dashboard</router-link> | <router-link to='/accounts'>Accounts</router-link> | <router-link to='/transfer'>Transfer</router-link></nav><router-view/></div></template>

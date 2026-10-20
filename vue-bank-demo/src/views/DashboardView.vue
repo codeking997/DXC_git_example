@@ -1,0 +1,1 @@
+<template><div><h2>{{store.customer}}</h2><p>Total Balance: {{total}}</p><ul><li v-for='t in store.transactions'>{{t.text}} {{t.amount}}</li></ul></div></template><script setup>import {computed} from 'vue';import {useBankStore} from '../stores/bankStore';const store=useBankStore();const total=computed(()=>store.accounts.reduce((a,b)=>a+b.balance,0));</script>

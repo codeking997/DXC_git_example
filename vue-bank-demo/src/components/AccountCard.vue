@@ -1,0 +1,1 @@
+<template><div style="border:1px solid #ccc;padding:10px;margin:10px"><h3>{{account.name}}</h3><p>Balance: {{account.balance}}</p></div></template><script setup>defineProps(['account'])</script>
