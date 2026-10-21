@@ -10,6 +10,7 @@ function goToVue(){
 
 <template>
     <button @click="goToVue">klikk meg</button>
+    <h1>Hello git</h1>
     <p>hello world</p>
     <p>hello there </p>
     
